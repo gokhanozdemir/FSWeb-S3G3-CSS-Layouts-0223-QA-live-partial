@@ -1,1 +1,85 @@
 /* CSS stillerinizi buraya girin */
+/* * {
+  border: 1px solid limegreen;
+  background-color: rgba(116, 116, 116, 0.1);
+}*/
+body {
+  margin: 0;
+}
+
+.containerClamp {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+
+.header h1 {
+  margin-left: 40px;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: darkslategrey;
+  text-transform: uppercase;
+}
+
+.menu ul li.menu--active {
+  background-color: tomato;
+}
+
+.menu ul li:hover {
+  background-color: darkblue;
+}
+
+.menu ul li a {
+  color: wheat;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 20px auto;
+}
+.about__content {
+  /* display: inline-block; */
+  margin-top: auto;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  min-width: 200px;
+  max-width: 400px;
+}
+.projects {
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.projects__item {
+  /* display: inline-block; */
+  margin-bottom: 20px;
+}
+
+.project__image {
+  background-color: tomato;
+  width: 200px;
+}
+
+.footer {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.footer__cta {
+  display: inline-block;
+  text-align: center;
+}
